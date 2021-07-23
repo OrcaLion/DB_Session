@@ -1,3 +1,1 @@
 **/db.sqlite3
-/blog/board/migrations
-!/blog/board/migrations/__init__.py
