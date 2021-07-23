@@ -5,4 +5,4 @@ class Comment(models.Model):
     content = models.CharField(max_length = 200)
 
     def __str__(self):
-        return self.title
+        return self.content
