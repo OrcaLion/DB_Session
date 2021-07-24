@@ -13,19 +13,18 @@
                 입력 중입니다.
             </div>
             <div class = "input_content">
-                <input type = "text" name = "content" placehoder ="제목">
-            </div>
-            <div class = 'submit'>
+                <input type = "text" name = "title" placehoder = "제목">
+                <input type = "text" name = "content" placeholder = "내용">
                 <button type ="submit"> 작성하기 </button>
             </div>
         </form>
     </div>
 
-    <div class = "comments">
-        {% for comment in comments %}
-            <div class = "comment">
-                {{comment.pk}}
-                {{comment.content}}
+    <div class = "posts">
+        {% for post in posts %}
+            <div class = "post">
+                {{post.pk}}
+                <a href = "{% url 'detail' post.pk %}"> {{post.title}} </a>
             </div>
         {% endfor %}
     </div>

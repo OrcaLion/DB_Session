@@ -83,16 +83,16 @@ DATABASES = {
     }
 }
 
-DATABASES = {
-    'default' : {
-        'ENGINE': 'django.db.backends.mysql',    #어떤 엔진을 사용할것인가요?
-        'NAME': 'django_insta',                  # 어떤 데이터 베이스를 사용할 것인가요?
-        'USER': 'root',                          # 어떤 유저를 사용할 것인가요?
-        'PASSWORD': 'password',                  # 어떤 비밀번호를 사용할 것인가요?
-        'HOST': 'localhost',                     # IP주소는 어떻게되나요?
-        'PORT': '3306',                          # 포트 번호는 무엇인가요?
-    }
-}
+# DATABASES = {
+#     'default' : {
+#         'ENGINE': 'django.db.backends.mysql',    #어떤 엔진을 사용할것인가요?
+#         'NAME': 'django_insta',                  # 어떤 데이터 베이스를 사용할 것인가요?
+#         'USER': 'root',                          # 어떤 유저를 사용할 것인가요?
+#         'PASSWORD': 'password',                  # 어떤 비밀번호를 사용할 것인가요?
+#         'HOST': 'localhost',                     # IP주소는 어떻게되나요?
+#         'PORT': '3306',                          # 포트 번호는 무엇인가요?
+#     }
+# }
 
 
 # Password validation
