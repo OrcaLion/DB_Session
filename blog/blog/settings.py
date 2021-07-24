@@ -76,24 +76,23 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 # DATABASES = {
 #     'default' : {
 #         'ENGINE': 'django.db.backends.mysql',    #어떤 엔진을 사용할것인가요?
-#         'NAME': 'django_insta',                  # 어떤 데이터 베이스를 사용할 것인가요?
+#         'NAME': 'django_db',                  # 어떤 데이터 베이스를 사용할 것인가요?
 #         'USER': 'root',                          # 어떤 유저를 사용할 것인가요?
 #         'PASSWORD': 'password',                  # 어떤 비밀번호를 사용할 것인가요?
 #         'HOST': 'localhost',                     # IP주소는 어떻게되나요?
 #         'PORT': '3306',                          # 포트 번호는 무엇인가요?
 #     }
 # }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
